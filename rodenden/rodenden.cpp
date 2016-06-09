@@ -34,9 +34,5 @@ int main(){
     }
  
     cout << ccount << endl;
- 
-     
- 
- 
- 
+    
 }

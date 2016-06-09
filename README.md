@@ -1,5 +1,8 @@
 # MENDO
 
-System for competitions in informatics 2016
+My solutions for the problems on MENDO a system for competitions in informatics.
 
 http://mendo.mk/
+
+
+

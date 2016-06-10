@@ -25,7 +25,6 @@ int main()
             if(vektor[i]==vektor[j])
             {
                 br1++;
- 
             }
         }
  
@@ -35,7 +34,7 @@ int main()
             br1=0;
             rez=vektor[i];
         }
- 
+        
     }
  
     cout << rez;

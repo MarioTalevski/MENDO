@@ -11,7 +11,7 @@ int main()
         int wi, di, li;
         cin >> wi >> di >> li;
 
-        int points = 3*wi + di;
+        int points = 3 * wi + di;
 
         if (points > best)
            best = points;

@@ -18,6 +18,7 @@ int dfs(int i,int j)
     if(mat[i+1][j-1]=='@'&i+1<n&j-1>=0)dfs(i+1,j-1);
     if(mat[i-1][j+1]=='@'&i-1>=0&j+1<m)dfs(i-1,j+1);
 }
+
 int main()
 {
     cin>>n>>m;
@@ -38,5 +39,7 @@ int main()
             sum=0;
         }
     }
-    cout<<pole;
+    cout << pole;
+    
+    return 0;
 }

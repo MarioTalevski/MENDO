@@ -27,8 +27,8 @@ int main()
         for (j=0;j<m;j++)
         {
             cin >> mat[i][j];
-            if (mat[i][j]=='#') poseten[i][j]=1;
-            else poseten[i][j]=0;
+            if (mat[i][j] == '#') poseten[i][j] = 1;
+            else poseten[i][j] = 0;
         }
     }
  
@@ -44,7 +44,7 @@ int main()
         }
     }
  
-    cout<<o<<" "<<v<<endl;
+    cout < < o << " " << v < <endl;
  
     return 0;
  

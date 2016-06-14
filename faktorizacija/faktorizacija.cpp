@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n, base=2, deg, first=1;
-    cin >> n; //read n from console
+    cin >> n; 
      
     while (n >= 2)
     {
@@ -21,7 +21,7 @@ int main()
                   if (first == 1)
                   {
                      cout << "(" << base << "^" << deg << ")";
-                     first = 0; //printed the first factor
+                     first = 0; 
                   } else
                   {
                      cout << "*" << "(" << base << "^" << deg << ")";
